@@ -10,3 +10,5 @@ hello ajesh
 
 echo "just to test git pull"
 
+echo "i dono what am doing here"
+

@@ -10,3 +10,5 @@ hello ajesh
 
 echo "just to test git pull"
 echo " crontab is like schedules @yealry @Monthly @weekly @daily"
+echo "i dono what am doing here"
+

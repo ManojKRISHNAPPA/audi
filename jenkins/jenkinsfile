@@ -36,7 +36,7 @@ pipeline{
             }
         }
          
-         stage('Ram-usgae'){
+         stage('Ram-usgae-In-Detail'){
             steps{
                 sh 'free -gh'
             }

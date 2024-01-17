@@ -1,4 +1,5 @@
- echo "hello bash"
+# ! /bin/bash
+echo "hello bash"
 
 echo "for testing purpose"
 echo "pratice devops"

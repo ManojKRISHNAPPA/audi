@@ -32,7 +32,7 @@ pipeline{
 
         stage('Ram-usgae'){
             steps{
-                sh 'free -g'
+                sh 'free -gh'
             }
         }
          

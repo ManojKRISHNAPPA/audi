@@ -1,5 +1,17 @@
 pipeline{
     agent any
+     stages {
+        stage('build'){
+            steps {
+                  sh 'build failure'      
+            }
+          }
+            post{
+              success{
+                emailext body: 'email sendout from jenkins', subject: 'Test', to: 'rishikeshnaavani5@gmail.com'
+               }
+            }
+        }  
 	
     stages {
         stage('Hostname'){

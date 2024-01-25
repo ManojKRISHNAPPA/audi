@@ -1,7 +1,7 @@
 x = 35e3
 y = 12E4
 z = -87.7e100
-this is complex code programs
+this is complex code program
 print(type(x))
 print(type(y))
 print(type(z))

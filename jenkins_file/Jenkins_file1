@@ -38,7 +38,7 @@ pipeline{
          
          stage('uptime'){
             steps{
-                sh 'Uptime'
+                sh 'uptime'
             }
             
      

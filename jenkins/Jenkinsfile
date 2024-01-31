@@ -19,7 +19,7 @@ pipeline{
             }
         }
 
-         stage("Dish utilation") {
+         stage("Disk utilation") {
             steps{
                 sh "df -kh"
             }
